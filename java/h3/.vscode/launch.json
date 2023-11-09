@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "H2Application",
+            "request": "launch",
+            "mainClass": "com.bezkoder.spring.r2dbc.h2.H2Application",
+            "projectName": "h2"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-H2Application<h2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.bezkoder.spring.r2dbc.h2.SpringBootR2dbcH2ExampleApplication",
+            "projectName": "h2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
